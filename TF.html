@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QUIZ MASTER</title>
+        <link rel="shortcut icon" type="image" href="icon.png">
+        <link rel="stylesheet" href="tf-style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="js/mc.js"></script>
+		<script>
+        $(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop()>50);
+		});
+        
+		</script>
+    </head>
+    <body>
+        <div class="content">
+            <nav>
+				<label class="logo"><span>True or False</span></label>
+				<ul class="menu">
+                    <li><a href="Test-Options.html">Quit</a></li>
+                    <li><a href="QuizMaster.html">Submit</a></li>
+				</ul>
+                <label id="icon">
+					<i class="fas fa-bars"></i>
+				</label>
+			</nav>
+            <h3>INSTRUCTION: Read each statement carefully. Select "True" if the statement is correct and "False" if not.</h3>
+            <div class="questioncard">
+				<div id="question">1. The measurement of radioactive element activity is Candella (Cd).</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>
+					
+				<div id="question">2. ATP stands for Adenosine Triposphate.</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					
+				<div id="question">3. There are 1039 patents that Thomas Edison filed alone.</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>
+					
+				<div id="question">4. Discharged is the opposite of matter?</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>
+
+				<div id="question">5. Venus is the hottest planet in the solar system</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">6. Cerebellum is the largest part of the brain</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>
+					
+				<div id="question">7. Thalamus' primary function is to relay motor and sensory signals to the cerebral cortex.</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">8. The part of the brain that is responsible for hearing and memory is called temporal lobe</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">9. The part of the brain that is responsible for processing visual information is called occipital lobe</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">10. Incus is the smallest bone in our body</div>
+					<div class="answer-choices">
+						<span>A. True</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. False </span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>				
+            </div>
+        </div>
+        <div class="box">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+		<script src="js/mc.js"></script>
+    </body>
+</html>

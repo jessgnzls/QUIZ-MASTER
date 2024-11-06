@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QUIZ MASTER</title>
+        <link rel="shortcut icon" type="image" href="icon.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script>
+        $(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop()>50);
+		});
+		
+		</script>
+    </head>
+    <body>
+        <div class="content">
+            <nav>
+				<label class="logo"><span>QUIZ MASTER</span></label>
+				<ul class="menu">
+                    <li><a href="QuizMaster.html">Home</a></li>
+                    <li><a class="currentpage" href="Test-Options.html">Options</a></li>
+					<li><a href="About.html">About</a></li>
+				</ul>
+                <label id="icon">
+					<i class="fas fa-bars"></i>
+				</label>
+			</nav>
+            <h3>Please select your preferred type of test.</h3>
+            <a href="MC.html">
+                <div class="multiplechoicecard">
+                    <div class="mc-image"></div>
+                    <div class="mc-name">
+                        <span"><b>Multiple Choices</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="TF.html">
+                <div class="truefalsecard">
+                    <div class="tf-image"></div>
+                    <div class="tf-name">
+                        <span"><b>True or False</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="Classification.html">
+                <div class="classificationcard">
+                    <div class="c-image"></div>
+                    <div class="c-name">
+                        <span"><b>Classification</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="JumbleLetters.html">
+                <div class="jumbleletterscard">
+                    <div class="jl-image"></div>
+                    <div class="jl-name">
+                        <span"><b>Jumble Letters</b></span>
+                    </div>
+                </div>
+            </a>
+		</div>
+        </div>
+        <div class="box">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </body>
+</html>

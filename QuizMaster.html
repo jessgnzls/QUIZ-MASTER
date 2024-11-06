@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QUIZ MASTER</title>
+        <link rel="shortcut icon" type="image" href="icon.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script>
+        $(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop()>50);
+		});
+		
+		</script>
+    </head>
+    <body>
+        <div class="content" id="home">
+            <nav>
+				<label class="logo"><span>QUIZ MASTER</span></label>
+				<ul class="menu">
+                    <li><a class="currentpage" href="QuizMaster.html">Home</a></li>
+                    <li><a href="Test-Options.html">Options</a></li>
+					<li><a href="About.html">About</a></li>
+				</ul>
+                <label id="icon">
+					<i class="fas fa-bars"></i>
+				</label>
+			</nav>
+            <p>Learn the Fun Way</p>
+        </div>
+        <div class="start">
+            <a href="Test-Options.html"><span>Let's Start</span></a>
+        </div>
+        <div class="box">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </body>
+</html>

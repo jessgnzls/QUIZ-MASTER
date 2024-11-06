@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QUIZ MASTER</title>
+        <link rel="shortcut icon" type="image" href="icon.png">
+        <link rel="stylesheet" href="fc-style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script>
+        $(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop()>50);
+		});
+		
+		</script>
+    </head>
+    <body>
+        <div class="content">
+            <nav>
+				<label class="logo"><span>Flashcards</span></label>
+				<ul class="menu">
+                    <li><a href="Test-Options.html">Quit</a></li>
+                    <li><a href="QuizMaster.html">Submit</a></li>
+				</ul>
+                <label id="icon">
+					<i class="fas fa-bars"></i>
+				</label>
+			</nav>
+            <div class="flip-card">
+                <div class="questioncard">
+                    <div class="headerquestion"></div>
+                    <div class="question">
+                        <p><b>1. What are the units for the measurements of radioactive element activity?</b></p>
+                    </div>
+                    <input type="text" placeholder="Enter your Answer">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        
+    </body>
+</html>

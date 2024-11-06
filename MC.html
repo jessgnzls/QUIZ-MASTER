@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QUIZ MASTER</title>
+        <link rel="shortcut icon" type="image" href="icon.png">
+        <link rel="stylesheet" href="mc-style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="js/mc.js"></script>
+		<script>
+        $(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop()>50);
+		});
+        
+		</script>
+    </head>
+    <body>
+        <div class="content">
+            <nav>
+				<label class="logo"><span>Multiple Choice</span></label>
+				<ul class="menu">
+                    <li><a href="Test-Options.html">Quit</a></li>
+                    <li><a href="QuizMaster.html">Submit</a></li>
+				</ul>
+                <label id="icon">
+					<i class="fas fa-bars"></i>
+				</label>
+			</nav>
+            <h3>INSTRUCTION: Choose the letter of the correct answer.</h3>
+            <div class="questioncard">
+				<div id="question">1. What are the measurements of radioactive element activity?</div>
+					<div class="answer-choices">
+						<span>A. Angstrom (Å)</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. Becqueral (Bq)</span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. Candella (Cd)</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. Density (ρ)</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>	
+					
+				<div id="question">2. What does ATP stands for?</div>
+					<div class="answer-choices">
+						<span>A. Adenosine Triposphate</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. Atomic Tracing Process</span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. Adenine Thymine Propagation</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. Adenosine Triglycerides</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">3. How much patents did Thomas Edison filed alone?</div>
+					<div class="answer-choices">
+						<span>A. 1039</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. 1390</span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. 1903</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. 1093</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+
+				<div id="question">4. What is the opposite of matter?</div>
+					<div class="answer-choices">
+						<span>A. Non-matter</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. Discharged</span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. Antimatter</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. Molecule</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">5. What is the hottest planet of the solar system?</div>
+					<div class="answer-choices">
+						<span>A. Mercury</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. Venus</span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. Mars</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. Saturn</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">6. What is the largest part of the brain?</div>
+					<div class="answer-choices">
+						<span>A. Cerebellum</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. Brain Stem</span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. Foramen Magnum</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. Cerebrum</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+
+				<div id="question">7. Its primary function is to relay motor and sensory signals to the cerebral cortex.</div>
+					<div class="answer-choices">
+						<span>A. Pons</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. Medulla</span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. Hypothalamus</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. Thalamus</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+
+				<div id="question">8. Which part of the brain is responsible for hearing and memory?</div>
+					<div class="answer-choices">
+						<span>A. occipital lobe</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. cerebellum</span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. temporal lobe</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. frontal lobe</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">9. Which part of the brain is responsible for processing visual information?</div>
+					<div class="answer-choices">
+						<span>A. temporal lobe</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. occipital lobe</span>
+						<div class="icon-tick"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. parietal lobe</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D.  medulla</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+
+				<div id="question">10. What is the smallest bone in our body?</div>
+					<div class="answer-choices">
+						<span>A. malleus</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>B. incus</span>
+						<div class="icon-tick"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>C. stapes</span>
+						<div class="icon-cross"><i class="fas fa-check"></i></div>
+					</div>
+					<div class="answer-choices">
+						<span>D. anvil</span>
+						<div class="icon-cross"><i class="fas fa-times"></i></div>
+					</div>					
+            </div>
+        </div>
+        <div class="box">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+		<script src="js/mc.js"></script>
+    </body>
+</html>
